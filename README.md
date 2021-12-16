@@ -1,6 +1,5 @@
 ### Hi there 👋
 
 - 🔭 I’m currently studying CSE at MIT ADT University, Pune.
-- 🌱 I’m currently learning C Language.
-- 📫 How to reach me: <a href="https://twitter.com/jaimeet_sarode">Twitter</a> 
+- 🌱 I’m currently learning C Language. 
 - ⚡ Fun fact: I love coding but then, I procrastinate a lot!
