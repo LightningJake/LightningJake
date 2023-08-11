@@ -2,7 +2,7 @@
 ### Hi there 👋
 
 - 🔭 I’m currently studying CSE at MIT ADT University, Pune.
-- 🌱 I’m currently learning Python Language. 
+- 🌱 I’m currently exploring Data Science and ML. 
 - ⚡ Fun fact: I love coding but then, I procrastinate a lot!<hr>
 
 ![Jake's GitHub stats](https://github-readme-stats.vercel.app/api?username=LightningJake&show_icons=true&theme=radical)<hr>
