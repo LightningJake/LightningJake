@@ -1,5 +1,9 @@
 
-### Hi there 👋
+### Hello there 👋 <hr>
+
+<div align="center">
+<img alt="GIF" align="center" src=" 
+</div>
 
 - 🔭 I’m currently studying CSE at MIT ADT University, Pune.
 - 🌱 I’m currently exploring Data Science and ML. 
