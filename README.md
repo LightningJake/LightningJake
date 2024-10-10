@@ -16,9 +16,9 @@ src="https://github.com/LightningJake/LightningJake/blob/main/Assets/Gojo%20Glas
 <img height="300" width="400" alt="GIF" align="right" src="https://github.com/LightningJake/LightningJake/blob/main/Assets/Gojo%20Wave.gif">
 
 ### - Learning : 
-- ✨ Data Science
+- ✨ DSA [Java]
 - ✨ MySQL
-- ✨ DSA
+- ✨ Data Science
 
 ### - Hobbies :
 - ✨ Games
