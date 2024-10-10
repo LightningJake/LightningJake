@@ -11,7 +11,7 @@ src="https://github.com/LightningJake/LightningJake/blob/main/Assets/Gojo%20Glas
 
 # About Me 💬 :
 
-### - I'm a 21 yrs old TY BTech CSE Student having interests in DSA and Data Science.
+### - I'm a 21 yrs old LY BTech CSE Student having interests in DSA and Data Science.
 
 <img height="300" width="400" alt="GIF" align="right" src="https://github.com/LightningJake/LightningJake/blob/main/Assets/Gojo%20Wave.gif">
 
