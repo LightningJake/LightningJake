@@ -38,7 +38,7 @@
     <td>
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
       <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-      <img src="https://img.shields.io/badge/Langfuse-0A0F1F?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Langfuse-334155?style=flat-square&logoColor=white" />
       <img src="https://img.shields.io/badge/RAGAS-7C3AED?style=flat-square" />
       <img src="https://img.shields.io/badge/DeepEval-5B21B6?style=flat-square" />
       <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square" />
@@ -59,7 +59,7 @@
   <tr>
     <td align="center"><b>Backend &amp; APIs</b></td>
     <td><img src="https://skillicons.dev/icons?i=fastapi,react,git,github&theme=dark" /><br/>
-      <img src="https://img.shields.io/badge/REST_APIs-0A0F1F?style=flat-square" />
+      <img src="https://img.shields.io/badge/REST_APIs-334155?style=flat-square" />
       <img src="https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=poetry&logoColor=white" />
     </td>
   </tr>
@@ -67,7 +67,7 @@
     <td align="center"><b>Cloud &amp; DevOps</b></td>
     <td><img src="https://skillicons.dev/icons?i=azure,kubernetes,aws&theme=dark" /><br/>
       <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square" />
-      <img src="https://img.shields.io/badge/Agile-0A0F1F?style=flat-square" />
+      <img src="https://img.shields.io/badge/Agile-334155?style=flat-square" />
     </td>
   </tr>
 </table>
