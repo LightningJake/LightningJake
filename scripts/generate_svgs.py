@@ -218,11 +218,11 @@ PROJECTS = [
                "and summaries with OpenAI Whisper. Cut",
                "minute-taking effort by 50%."],
          tags=["Whisper", "NLP", "Python"]),
-    dict(file="card-portipark.svg", name="PortiPark", eyebrow="FULL-STACK", accent=GREEN,
-         desc=["Office parking reservations on an interactive",
-               "floor grid: book, manage and check in to",
-               "parking spots, with JWT auth."],
-         tags=["FastAPI", "PostgreSQL", "React + TS"]),
+    dict(file="card-docking.svg", name="Molecular Docking", eyebrow="AI FOR DRUG DISCOVERY", accent=GREEN,
+         desc=["Automates protein & ligand prep and docking",
+               "runs: fetches PDB / PubChem files, converts",
+               "to PDBQT, and replies with results by email."],
+         tags=["Python", "Open Babel", "Automation"]),
 ]
 
 

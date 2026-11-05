@@ -81,7 +81,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/LightningJake/AttendieAI"><img src="Assets/svg/card-attendie.svg" width="100%" alt="Attendie AI" /></a></td>
-    <td><a href="https://github.com/LightningJake/PortiPark"><img src="Assets/svg/card-portipark.svg" width="100%" alt="PortiPark" /></a></td>
+    <td><a href="https://github.com/LightningJake/Automated-Molecular-Docking"><img src="Assets/svg/card-docking.svg" width="100%" alt="Automated Molecular Docking" /></a></td>
   </tr>
 </table>
 
