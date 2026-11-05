@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Animated terminal: whoami, focus areas and an LLM evaluation run">
+<style>
+    text { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace; font-size: 15px; white-space: pre; }
+    .all { animation: all 20.0s linear infinite; }
+    @keyframes all { 0%, 95% { opacity: 1 } 99%, 100% { opacity: 0 } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes s0 { 0%, 2.95% { opacity: 0 } 3.00%, 100% { opacity: 1 } } .s0 { animation: s0 20.0s linear infinite; }@keyframes c0 { 0%, 3.00% { transform: translateX(0) } 5.00%, 100% { transform: translateX(65px) } } .c0 { animation: c0 20.0s steps(1) infinite; animation-timing-function: steps(6, end); }@keyframes o1 { 0%, 7.50% { opacity: 0; transform: translateX(-6px) } 8.75%, 100% { opacity: 1; transform: none } } .o1 { animation: o1 20.0s ease-out infinite; }@keyframes s2 { 0%, 11.95% { opacity: 0 } 12.00%, 100% { opacity: 1 } } .s2 { animation: s2 20.0s linear infinite; }@keyframes c2 { 0%, 12.00% { transform: translateX(0) } 15.38%, 100% { transform: translateX(148px) } } .c2 { animation: c2 20.0s steps(1) infinite; animation-timing-function: steps(15, end); }@keyframes o3 { 0%, 17.50% { opacity: 0; transform: translateX(-6px) } 18.75%, 100% { opacity: 1; transform: none } } .o3 { animation: o3 20.0s ease-out infinite; }@keyframes s4 { 0%, 22.45% { opacity: 0 } 22.50%, 100% { opacity: 1 } } .s4 { animation: s4 20.0s linear infinite; }@keyframes c4 { 0%, 22.50% { transform: translateX(0) } 31.05%, 100% { transform: translateX(360px) } } .c4 { animation: c4 20.0s steps(1) infinite; animation-timing-function: steps(38, end); }@keyframes o5 { 0%, 33.00% { opacity: 0; transform: translateX(-6px) } 34.25%, 100% { opacity: 1; transform: none } } .o5 { animation: o5 20.0s ease-out infinite; }@keyframes o6 { 0%, 35.00% { opacity: 0; transform: translateX(-6px) } 36.25%, 100% { opacity: 1; transform: none } } .o6 { animation: o6 20.0s ease-out infinite; }@keyframes o7 { 0%, 37.00% { opacity: 0; transform: translateX(-6px) } 38.25%, 100% { opacity: 1; transform: none } } .o7 { animation: o7 20.0s ease-out infinite; }@keyframes o8 { 0%, 39.00% { opacity: 0; transform: translateX(-6px) } 40.25%, 100% { opacity: 1; transform: none } } .o8 { animation: o8 20.0s ease-out infinite; }@keyframes o9 { 0%, 42.00% { opacity: 0; transform: translateX(-6px) } 43.25%, 100% { opacity: 1; transform: none } } .o9 { animation: o9 20.0s ease-out infinite; }@keyframes o10 { 0%, 46.00% { opacity: 0; transform: translateX(-6px) } 47.25%, 100% { opacity: 1; transform: none } } .o10 { animation: o10 20.0s ease-out infinite; }@keyframes s11 { 0%, 49.95% { opacity: 0 } 50.00%, 100% { opacity: 1 } } .s11 { animation: s11 20.0s linear infinite; }</style>
+<rect x=".5" y=".5" width="899" height="419" rx="14" fill="#0A0F1F" stroke="#26304D"/>
+<path d="M14 .5 H886 A13.5 13.5 0 0 1 899.5 14 V42 H.5 V14 A13.5 13.5 0 0 1 14 .5 Z" fill="#111933"/>
+<line x1=".5" y1="42" x2="899.5" y2="42" stroke="#26304D"/>
+<circle cx="24" cy="21" r="6" fill="#FF5F57"/><circle cx="44" cy="21" r="6" fill="#FEBC2E"/><circle cx="64" cy="21" r="6" fill="#28C840"/>
+<text x="450.0" y="26" text-anchor="middle" style="font-size:13px" fill="#8B95A7">jaimeet@mumbai: ~/evals</text>
+<g class="all">
+<g class="s0"><text x="30" y="84"><tspan fill="#FACC15">❯ </tspan><tspan fill="#E6EDF3">whoami</tspan></text>
+<rect class="c0" x="46.4" y="66" width="900" height="27" fill="#0A0F1F"/>
+</g>
+<text class="o1" x="48.4" y="111"><tspan fill="#8B95A7">Jaimeet Sarode · AI Engineer @ Capgemini · Mumbai, India</tspan></text>
+<g class="s2"><text x="30" y="138"><tspan fill="#FACC15">❯ </tspan><tspan fill="#E6EDF3">cat ./focus.txt</tspan></text>
+<rect class="c2" x="46.4" y="120" width="900" height="27" fill="#0A0F1F"/>
+</g>
+<text class="o3" x="48.4" y="165"><tspan fill="#22D3EE">LLM evaluation · RAG systems · LLM observability · agents</tspan></text>
+<g class="s4"><text x="30" y="192"><tspan fill="#FACC15">❯ </tspan><tspan fill="#E6EDF3">python -m evals run --suite rag-golden</tspan></text>
+<rect class="c4" x="46.4" y="174" width="900" height="27" fill="#0A0F1F"/>
+</g>
+<text class="o5" x="48.4" y="219"><tspan fill="#A78BFA">[retrieval ] </tspan><tspan fill="#8B95A7">context_precision   ....... </tspan><tspan fill="#4ADE80">PASS</tspan></text>
+<text class="o6" x="48.4" y="246"><tspan fill="#A78BFA">[retrieval ] </tspan><tspan fill="#8B95A7">context_recall      ....... </tspan><tspan fill="#4ADE80">PASS</tspan></text>
+<text class="o7" x="48.4" y="273"><tspan fill="#A78BFA">[generation] </tspan><tspan fill="#8B95A7">factual_correctness ....... </tspan><tspan fill="#4ADE80">PASS</tspan></text>
+<text class="o8" x="48.4" y="300"><tspan fill="#A78BFA">[generation] </tspan><tspan fill="#8B95A7">semantic_similarity ....... </tspan><tspan fill="#4ADE80">PASS</tspan></text>
+<text class="o9" x="48.4" y="327"><tspan fill="#A78BFA">[judge     ] </tspan><tspan fill="#8B95A7">llm_as_a_judge      ....... </tspan><tspan fill="#FACC15">HUMAN REVIEW</tspan></text>
+<text class="o10" x="48.4" y="354"><tspan fill="#4ADE80">✓ </tspan><tspan fill="#E6EDF3">report saved · every evaluator traced in Langfuse</tspan></text>
+<g class="s11"><text x="30" y="381"><tspan fill="#FACC15">❯ </tspan></text>
+<rect class="cursor" x="48.4" y="366" width="9" height="19" fill="#E6EDF3"/>
+</g>
+</g>
+</svg>

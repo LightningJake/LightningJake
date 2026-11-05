@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Thanks for stopping by">
+<style>
+    .w1 { animation: w 8s ease-in-out infinite alternate; }
+    .w2 { animation: w 6s ease-in-out infinite alternate-reverse; }
+    @keyframes w { from { transform: translateX(0) } to { transform: translateX(-120px) } }
+    .flicker { animation: flicker 3.5s infinite; }
+    @keyframes flicker { 0%,100%,46% { opacity: 1 } 48% { opacity: .25 } 50% { opacity: 1 } 52% { opacity: .4 } 54% { opacity: 1 } }
+    </style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#141C3A"/><stop offset="1" stop-color="#0A0F1F"/></linearGradient><clipPath id="fc"><rect width="1200" height="140" rx="20"/></clipPath></defs>
+<g clip-path="url(#fc)">
+<path class="w1" d="M0 70 q60.0 -18 120.0 0 t120.0 0 q60.0 -18 120.0 0 t120.0 0 q60.0 -18 120.0 0 t120.0 0 q60.0 -18 120.0 0 t120.0 0 q60.0 -18 120.0 0 t120.0 0 q60.0 -18 120.0 0 t120.0 0 V140 H0 Z" fill="#22D3EE" opacity=".12"/>
+<path class="w2" d="M0 82 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 V140 H0 Z" fill="#FACC15" opacity=".10"/>
+<path class="w1" d="M0 92 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 q50.0 -10 100.0 0 t100.0 0 V140 H0 Z" fill="url(#g)"/>
+</g>
+<path class="flicker" transform="translate(352 105) scale(0.7)" fill="#FACC15" d="M9 0 L0 15 H7 L4 28 L15 10 H8 L12 0 Z"/>
+<text x="610.0" y="124" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#E6EDF3">Thanks for stopping by. Let's build AI you can trust.</text>
+</svg>

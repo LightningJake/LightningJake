@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jaimeet Sarode, AI Engineer">
+<style>
+    .fade { opacity: 0; animation: fadeUp .9s ease-out forwards; }
+    .d1 { animation-delay: .1s } .d2 { animation-delay: .3s } .d3 { animation-delay: .5s }
+    .d4 { animation-delay: .7s } .d5 { animation-delay: .9s } .d6 { animation-delay: 1.1s }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    .flow { stroke-dasharray: 5 7; animation: flow 1s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12 } }
+    .halo { opacity: 0; animation: halo 3s ease-out infinite; }
+    @keyframes halo { 0% { opacity: 0 } 6% { opacity: .55 } 30% { opacity: 0 } 100% { opacity: 0 } }
+    .flicker { animation: flicker 3.5s infinite; }
+    @keyframes flicker { 0%,100% { opacity: 1 } 46% { opacity: 1 } 48% { opacity: .25 } 50% { opacity: 1 } 52% { opacity: .4 } 54% { opacity: 1 } }
+    .pass { animation: pass 6s infinite; } .review { animation: review 6s infinite; }
+    @keyframes pass { 0%,45% { opacity: 1 } 50%,95% { opacity: 0 } 100% { opacity: 1 } }
+    @keyframes review { 0%,45% { opacity: 0 } 50%,95% { opacity: 1 } 100% { opacity: 0 } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+    </style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F1F"/><stop offset="1" stop-color="#141C3A"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1A2444" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="0.1" r="0.4"><stop offset="0" stop-color="#FACC15" stop-opacity="0.10"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+  <linearGradient id="nameg" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C7D2FE"/></linearGradient>
+  <clipPath id="clip"><rect width="1200" height="320" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="320" fill="url(#bg)"/>
+<rect width="1200" height="320" fill="url(#grid)" opacity=".55"/>
+<rect width="1200" height="320" fill="url(#glow)"/>
+<rect width="1200" height="320" fill="url(#glow2)"/>
+<g class="fade d1"><path class="flicker" transform="translate(64 62) scale(0.85)" fill="#FACC15" d="M9 0 L0 15 H7 L4 28 L15 10 H8 L12 0 Z"/><text x="86" y="83" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="15" letter-spacing="3" fill="#FACC15" font-weight="700">LIGHTNINGJAKE</text></g>
+<text class="fade d2" x="62" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#nameg)">Jaimeet Sarode</text>
+<text class="fade d3" x="64" y="190" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#22D3EE">AI Engineer  ·  LLM Evaluation  ·  RAG  ·  Observability</text>
+<text class="fade d4" x="64" y="228" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#8B95A7">I build the systems that tell you whether your AI is actually right.</text>
+<g class="fade d5"><rect x="64" y="252" width="130" height="30" rx="15" fill="#0F1730" stroke="#26304D"/><circle cx="78" cy="267" r="3.5" fill="#E6EDF3"/><text x="88" y="272" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#E6EDF3">Mumbai, India</text><rect x="204" y="252" width="209" height="30" rx="15" fill="#0F1730" stroke="#26304D"/><circle cx="218" cy="267" r="3.5" fill="#FACC15"/><text x="228" y="272" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#E6EDF3">AI Engineer @ Capgemini</text><rect x="423" y="252" width="201" height="30" rx="15" fill="#0F1730" stroke="#26304D"/><circle cx="437" cy="267" r="3.5" fill="#22D3EE"/><text x="447" y="272" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#E6EDF3">Azure AI-102 certified</text></g>
+<g class="fade d6">
+<text x="740" y="58" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="12" letter-spacing="2" fill="#8B95A7">RAG · EVAL PIPELINE</text>
+<path class="flow" d="M852 98 H895" stroke="#8B95A7" stroke-width="2" fill="none"/>
+<path class="flow" d="M1007 98 H1050" stroke="#8B95A7" stroke-width="2" fill="none"/>
+<path class="flow" d="M1106 118 V198" stroke="#8B95A7" stroke-width="2" fill="none"/>
+<path class="flow" d="M1050 218 H1007" stroke="#8B95A7" stroke-width="2" fill="none"/>
+<path class="flow" d="M895 218 H852" stroke="#8B95A7" stroke-width="2" fill="none"/>
+<circle r="5" fill="#FACC15"><animateMotion dur="3s" repeatCount="indefinite" path="M796 98 H1106 V218 H796"/></circle>
+<rect class="halo" style="animation-delay:0.0s" x="736" y="74" width="120" height="48" rx="13" fill="none" stroke="#22D3EE" stroke-width="4"/>
+<rect x="740" y="78" width="112" height="40" rx="10" fill="#0F1730" stroke="#22D3EE" stroke-width="1.5"/>
+<text x="796.0" y="103" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#E6EDF3">query</text>
+<rect class="halo" style="animation-delay:0.45s" x="891" y="74" width="120" height="48" rx="13" fill="none" stroke="#A78BFA" stroke-width="4"/>
+<rect x="895" y="78" width="112" height="40" rx="10" fill="#0F1730" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="951.0" y="103" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#E6EDF3">retrieve</text>
+<rect class="halo" style="animation-delay:0.9s" x="1046" y="74" width="120" height="48" rx="13" fill="none" stroke="#FACC15" stroke-width="4"/>
+<rect x="1050" y="78" width="112" height="40" rx="10" fill="#0F1730" stroke="#FACC15" stroke-width="1.5"/>
+<text x="1106.0" y="103" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#E6EDF3">generate</text>
+<rect class="halo" style="animation-delay:1.6s" x="1046" y="194" width="120" height="48" rx="13" fill="none" stroke="#4ADE80" stroke-width="4"/>
+<rect x="1050" y="198" width="112" height="40" rx="10" fill="#0F1730" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="1106.0" y="223" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#E6EDF3">evaluate</text>
+<rect class="halo" style="animation-delay:2.2s" x="891" y="194" width="120" height="48" rx="13" fill="none" stroke="#A78BFA" stroke-width="4"/>
+<rect x="895" y="198" width="112" height="40" rx="10" fill="#0F1730" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="951.0" y="223" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#E6EDF3">judge</text>
+<rect class="halo" style="animation-delay:2.7s" x="736" y="194" width="120" height="48" rx="13" fill="none" stroke="#4ADE80" stroke-width="4"/>
+<g class="pass"><rect x="740" y="198" width="112" height="40" rx="20" fill="#0E2A1C" stroke="#4ADE80" stroke-width="1.5"/><text x="796.0" y="223" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="700" fill="#4ADE80">✓ PASS</text></g>
+<g class="review"><rect x="740" y="198" width="112" height="40" rx="20" fill="#2A240B" stroke="#FACC15" stroke-width="1.5"/><text x="796.0" y="223" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" fill="#FACC15">⚑ REVIEW</text></g>
+<circle class="pulse" cx="746" cy="281" r="4" fill="#4ADE80"/><text x="758" y="285" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#8B95A7">every step traced · Langfuse + OpenTelemetry</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="1199" height="319" rx="20" fill="none" stroke="#26304D"/>
+</svg>
